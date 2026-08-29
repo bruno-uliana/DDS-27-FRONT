@@ -1,0 +1,41 @@
+body{   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: red;
+    display: flow-root;
+}
+
+header{
+background-color: lightgray;
+font-size: 15px;
+color: white;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.caixa1{
+    background-color: green;
+    text-align: center;
+}
+
+.caixa2{
+    background-color: green;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
