@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* IMPORTAÇÃO DE FONTES DO GOOGLE */
+
+/* VIA URL */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #f4f4f4;
+    margin: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* USADNO FONTE VIA URL */ 
+h1{    
+    font-weight: 200;
+}
+
+h2{ 
+    font-weight: 600;
+}
+/* Esilização de vários elementos ao mesmo tempo */
+h1,h2{
+    font-family: "Roboto", sans-serif;
+    color: #1f3c88;
+}
+
+/* Estilização via class */
+.bloco{
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* IMPORTAR FONTES DO PROJETO */
+@font-face {
+    font-family: "Outfit";
+    src: url("./fonts/Outfit.ttf")
+}
+
+/* USANDO A FONTE DO PROJETO */
+p{
+    font-family: "Outfit";
+    font-size: 15px;
+    color: rgba(22, 123, 238, 0.694);
+}
+
+/* PSEUDOS CLASSES */
+a{
+    color: orange;
+}
+
+/* links não visitados */
+a:link{
+    color: green;
+}
+/* links já visitados */
+a:visited{
+    color: blueviolet;
+}
+/* link que está ativo, que está clicado */
+a:active{
+    color: cyan;
+}
+/* quando passa o mouse em cima */
+a:hover{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
