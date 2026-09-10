@@ -74,3 +74,118 @@ a:hover{
     font-size: 20px;
     text-decoration: none;
 }
+
+/* quando passa o mouse em cima */
+button:hover{
+cursor: pointer;
+background-color: red;
+color:white;
+padding: 5px;
+transform: scale(0.3,5);
+transition: 1s;
+}
+/* botão que está ativo, que está clicado */
+button:active{
+transform: rotate(45deg);
+transition: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lista-exemplo li:first-child{
+font-weight: bold;
+color:green;
+}
+
+/* SELECIONA O ÚLTIMO FILHO, VULGO O PREFERIDO, JOSÉ */
+.lista-exemplo li: last-child{
+font-weight: bold;
+height: 50px;
+}
+
+/* SELECIONA O ÚLTIMO FILHO, VULGO O PREFERIDO, JOSÉ */
+.lista-exemplo li:nth-child(3){
+background-color:gold;
+}
+
+/* SELECIONA ESPAÇOS SEM COONTEÚDO */
+.caixa-vazia:empty{
+width: 200px;
+height: 150px;
+background-color:pink;
+}
+
+/* seleciona a primeira letra de um texto */
+.texto-especial::first-letter{
+color: red;
+font-size: 50px;
+}
+
+/* seleciona a primeira linha de um texto */
+.texto-especial::first-line{
+    color: gold;
+    font-size: 20px;
+}
+
+/* PSEUDO ELEMENTOS */
+
+
+/* insere items ANTES dos elementos */
+h2::before{
+    content: "👍";
+    color: red;
+}
+
+/* insere items DEPOIS dos elementos */
+h2::after{
+    content: "🙌";
+    color: pink;
+}
+
+/* Estiliza o texto dentro dos inputs */
+input::placeholder{
+    color: darkblue;
+    font-style: italic;
+}
+
+/*  */
+::selection{
+    background-color: yellow;
+    color: green;
+}
+
+/* estiliza os marcadores de texto */
+.lista-marker li::marker{
+    color: #03f182;
+    font-size: 20px;
+}
