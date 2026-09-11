@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+.icones{
+    font-size: 100px;
+    color: red;
+    transition: 1s;
+}
+
+.icones:hover{
+    color: white;
+    background-color: purple;
+    font-size: 200px;
+    transition: 3s;
+}
