@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(37, 64, 148);
+}
+
+
+header{
+    background-color: white;
+    flex: 1;
+    height: 60px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.caixa1{
+    display: flex;
+}
+
+
+.teste-main {
+    flex: 1;
+    height: 120px;
+    margin: 1px;    
+}
+
+
+
+footer{
+    background-color: rgb(50, 83, 158);
+    color: white;
+    height: 120px;
+}
